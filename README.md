@@ -9,7 +9,7 @@ R code to solve a given sudoku puzzle. The puzzle must be initialized in the cod
 ## sudoku.py
 Python code to solve a given sudoku puzzle. The puzzle must be initialized in the code, not a file. Doesn't really work yet.
 
-## Wordle-Expanded_
+## Wordle-Expanded
 Text-based python code to emulate Wordle. https://www.powerlanguage.co.uk/wordle/
 
 ## LetsMakeADeal
