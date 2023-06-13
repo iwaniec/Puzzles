@@ -91,6 +91,7 @@ def setup():
     # size and background of board
     size(800, 800)
     background(177, 110, 65)
+    
      
     # set to light square fill color and no stroke
     fill(255, 213, 153)
@@ -106,11 +107,11 @@ def setup():
 def draw():
     for piece in white_team:
         x, y = pos2px(piece.position)
-        image(loadImage(piece.image), x, y)
+        image(loadImage(piece.image), x, y-5)
         
     for piece in black_team:
         x, y = pos2px(piece.position)
-        image(loadImage(piece.image), x, y)
+        image(loadImage(piece.image), x, y-5)
         
 # --------------------------------------------------
 # Actions on Mouse Click
